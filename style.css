@@ -37,6 +37,7 @@ ul {
 }
 
 li {
+  position: relative;
   border: 2px solid rgba(255, 255, 255, 0.5);
   width: 100px;
   height: 100px;
@@ -47,7 +48,7 @@ li {
   font-size: 2rem;
   font-weight: bold;
   margin: 2px;
-  z-index: 9;
+  /* z-index: 9; */
 }
 
 .hidden-date {
